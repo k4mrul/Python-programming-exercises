@@ -465,6 +465,21 @@ while True:
     else:
         pass
 print (netAmount)
+
+My solution: 
+x = 0
+y = 0
+while True:
+    inp = input()
+    if inp == '':
+        break
+    if inp.split()[0] == 'D':
+        x += int(inp.split()[1])
+    if inp.split()[0] == 'W':
+        y += int(inp.split()[1])
+print(x-y)
+
+
 #----------------------------------------#
 
 #----------------------------------------#
