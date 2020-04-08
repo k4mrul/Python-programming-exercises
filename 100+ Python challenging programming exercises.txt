@@ -343,6 +343,19 @@ DIGITS 3
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
+My solution:
+digi = {'LETTERS': 0, 'DIGITS': 0}
+np = 'hello world! 123'
+count = 0
+for n in np:
+    if n.isdigit():
+        digi['DIGITS'] += 1
+    elif n.isalpha():
+        digi['LETTERS'] += 1
+print('LETTERS ' + str(digi['LETTERS']))
+print('DIGITS ' + str(digi['DIGITS']))
+
+
 Solution:
 s = input()
 d={"DIGITS":0, "LETTERS":0}
