@@ -385,6 +385,18 @@ LOWER CASE 9
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
+My solution:
+pq = {"UPPER CASE": 0, "LOWER CASE": 0}
+
+txt = 'Hello world!'
+for p in txt:
+    if p.isupper():
+        pq["UPPER CASE"] += 1;
+    elif p.islower():
+        pq["LOWER CASE"] += 1;
+
+print(pq)
+
 Solution:
 s = input()
 d={"UPPER CASE":0, "LOWER CASE":0}
