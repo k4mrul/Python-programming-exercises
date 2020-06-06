@@ -59,6 +59,9 @@ def fact(x):
 
 x=int(input())
 print(fact(x))
+
+#Explanation: https://www.youtube.com/watch?v=zbfRgC3kukk
+
 #----------------------------------------#
 
 #----------------------------------------#
